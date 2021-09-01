@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Markazi+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #5D5C61;
+}
+
+h1, h2 {
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 10px, 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 36pt;
+}
+
+h3 {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 24pt;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF
+}
+
+p {
+    margin: 10px, 0;
+    color: #FFF;
+    font-size: 16pt;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+    font-size: 12pt;
+}
+
+.navbar {
+    background-color: #7395AE;
+    color: #FFF;
+    height: 90px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px #FFF solid;
+}
+
+.showcase {
+    border-top: 1px solid #FFF;
+    display: flex;
+    justify-content: left;
+}
